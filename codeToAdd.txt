@@ -1,10 +1,12 @@
 	
 /////////////for core.site/////////////
 	
-	<property>
-		<name>fs.defaultFs</name>
-		<value>hdfs://localhost:9000</value>
-	</property>
+	<configuration>
+	 <property>
+		 <name>fs.default.name</name>
+		 <value>hdfs://localhost:9000</value>
+	 </property>
+	</configuration>
 
 /////////////for mapred.site/////////////
 
